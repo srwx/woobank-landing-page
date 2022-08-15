@@ -1,5 +1,7 @@
 # Woobank landing page
 
+![Screen Shot 2565-08-16 at 00 33 30](https://user-images.githubusercontent.com/73735636/184686332-be927674-1dce-421e-ab72-e9ac661593c4.png)
+
 This project is for education purpose. Learning to create a modern design of landing page using only react.js and tailwindcss.<br />
 Deployed website: https://woobank.vercel.app<br /><br />
 
