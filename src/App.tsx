@@ -1,8 +1,13 @@
+import classNames from "classnames"
+import Navbar from "sections/Navbar"
+import styles from "./styles"
+
 export default function App() {
   return (
-    <div>
-      <div className="bg-black">Hello</div>
-      <img src="images/banner/robot.png" />
+    <div className="bg-primary">
+      <div className={`${styles.flexCenter}`}>
+        <Navbar />
+      </div>
     </div>
   )
 }
