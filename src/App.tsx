@@ -5,6 +5,7 @@ import Stats from "sections/Stats"
 import styles from "./styles"
 import Business from "sections/Business"
 import Billing from "./sections/Billing"
+import Card from "./sections/Card"
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
           <Stats />
           <Business />
           <Billing />
+          <Card />
         </div>
       </div>
     </div>
