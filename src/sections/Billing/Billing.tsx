@@ -5,7 +5,7 @@ export const Billing = () => {
     <div
       className={classNames(
         "w-full flex flex-col gap-y-5",
-        "sm:flex-row sm:items-center"
+        "sm:flex-row sm:items-center sm:gap-x-10"
       )}
     >
       {/* Left section */}
