@@ -3,6 +3,7 @@ import classNames from "classnames"
 interface StypesProps {
   paddingBox: string
   heroPaddingBox: string
+  gapBox: string
   flexStart: string
   flexCenter: string
 }
@@ -17,6 +18,8 @@ const styles: StypesProps = {
     "w-full pl-6",
     "sm:pl-10 md:pl-20 lg:px-36 lg:max-w-[1440px]"
   ),
+
+  gapBox: classNames("space-y-10"),
 
   flexStart: classNames("flex justify-start items-center"),
 
