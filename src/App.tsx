@@ -19,7 +19,11 @@ export default function App() {
         <Hero />
       </div>
       <div className={classNames(`${styles.flexCenter}`, "flex-col pt-10")}>
-        <div className={classNames(`${styles.paddingBox} space-y-28`)}>
+        <div
+          className={classNames(
+            `${styles.paddingBox} space-y-28 sm:space-y-10`
+          )}
+        >
           <Stats />
           <Business />
           <Billing />
