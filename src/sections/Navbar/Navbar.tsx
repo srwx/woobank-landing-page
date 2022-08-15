@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <div
       className={classNames(
-        `${styles.paddingBox} py-4`,
+        `w-full py-4`,
         "flex items-center justify-between",
         "md:py-6"
       )}

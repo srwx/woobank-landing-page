@@ -28,7 +28,7 @@ export const Business = () => {
   return (
     <div
       className={classNames(
-        "flex flex-col gap-y-5",
+        "w-full flex flex-col gap-y-5",
         "sm:flex-row sm:items-center"
       )}
     >

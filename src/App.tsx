@@ -9,19 +9,18 @@ export default function App() {
   return (
     <div className={classNames(`${styles.gapBox}`, "bg-primary")}>
       <div className={`${styles.flexCenter}`}>
-        <Navbar />
+        <div className={`${styles.paddingBox}`}>
+          <Navbar />
+        </div>
       </div>
       <div className={classNames(`${styles.flexCenter}`, "mt-12")}>
         <Hero />
       </div>
-      <div
-        className={classNames(
-          `${styles.flexCenter} ${styles.paddingBox},`,
-          "flex-col gap-y-20 pt-11"
-        )}
-      >
-        <Stats />
-        <Business />
+      <div className={classNames(`${styles.flexCenter}`, "flex-col pt-11")}>
+        <div className={classNames(`${styles.paddingBox} space-y-20`)}>
+          <Stats />
+          <Business />
+        </div>
       </div>
     </div>
   )

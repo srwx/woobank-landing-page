@@ -13,7 +13,7 @@ export const Stats = () => {
   return (
     <div
       className={classNames(
-        "flex justify-center flex-wrap gap-x-12 gap-y-8",
+        "w-full flex justify-center flex-wrap gap-x-12 gap-y-8",
         "md:gap-x-24",
         "lg:gap-x-20"
       )}
