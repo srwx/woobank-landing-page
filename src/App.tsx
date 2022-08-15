@@ -4,6 +4,7 @@ import Hero from "sections/Hero"
 import Stats from "sections/Stats"
 import styles from "./styles"
 import Business from "sections/Business"
+import Billing from "./sections/Billing"
 
 export default function App() {
   return (
@@ -16,10 +17,11 @@ export default function App() {
       <div className={classNames(`${styles.flexCenter}`, "mt-12")}>
         <Hero />
       </div>
-      <div className={classNames(`${styles.flexCenter}`, "flex-col pt-11")}>
-        <div className={classNames(`${styles.paddingBox} space-y-20`)}>
+      <div className={classNames(`${styles.flexCenter}`, "flex-col pt-10")}>
+        <div className={classNames(`${styles.paddingBox} space-y-28`)}>
           <Stats />
           <Business />
+          <Billing />
         </div>
       </div>
     </div>
