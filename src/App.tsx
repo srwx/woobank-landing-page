@@ -1,13 +1,14 @@
 import classNames from "classnames"
+import styles from "./styles"
 import Navbar from "sections/Navbar"
 import Hero from "sections/Hero"
 import Stats from "sections/Stats"
-import styles from "./styles"
 import Business from "sections/Business"
-import Billing from "./sections/Billing"
-import Card from "./sections/Card"
-import People from "./sections/People"
-import Sponsor from "./sections/Sponsor"
+import Billing from "sections/Billing"
+import Card from "sections/Card"
+import People from "sections/People"
+import Sponsor from "sections/Sponsor"
+import Footer from "sections/Footer"
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
           <Card />
           <People />
           <Sponsor />
+          <Footer />
         </div>
       </div>
     </div>
