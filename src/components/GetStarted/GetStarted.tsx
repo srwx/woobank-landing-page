@@ -17,18 +17,25 @@ export const GetStarted = () => {
           "w-[97%] h-[97%] rounded-full bg-primary"
         )}
       >
-        <span
-          className={classNames("text-gradient", "sm:text-xs", "md:text-base")}
-        >
-          Get
-          <img
-            src="images/icons/arrow-up.svg"
-            alt="arrow"
-            className="inline ml-1"
-          />
-          <br />
-          Started
-        </span>
+        {" "}
+        <a href="https://github.com/srwx/woobank-landing-page" target="_blank">
+          <span
+            className={classNames(
+              "text-gradient",
+              "sm:text-xs",
+              "md:text-base"
+            )}
+          >
+            Get
+            <img
+              src="images/icons/arrow-up.svg"
+              alt="arrow"
+              className="inline ml-1"
+            />
+            <br />
+            Started
+          </span>
+        </a>
       </div>
     </div>
   )

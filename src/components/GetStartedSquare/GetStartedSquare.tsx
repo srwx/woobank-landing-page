@@ -11,7 +11,10 @@ export const GetStartedSquare = () => {
         "lg:w-[16rem]"
       )}
     >
-      Get Started
+      {" "}
+      <a href="https://github.com/srwx/woobank-landing-page" target="_blank">
+        Get Started
+      </a>
     </div>
   )
 }
