@@ -99,7 +99,7 @@ export const Footer = () => {
         </p>
         <div className="flex gap-x-8">
           {SocialList.map((social) => (
-            <a href={social.link} className="cursor-pointer">
+            <a href={social.link} target="_blank" className="cursor-pointer">
               <img
                 src={social.image}
                 alt="social"
