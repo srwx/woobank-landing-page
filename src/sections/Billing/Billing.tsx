@@ -4,7 +4,7 @@ export const Billing = () => {
   return (
     <div
       className={classNames(
-        "w-full flex flex-col gap-y-5",
+        "w-full flex flex-col gap-y-5 relative",
         "sm:flex-row sm:items-center sm:gap-x-10"
       )}
     >
@@ -31,8 +31,12 @@ export const Billing = () => {
           </p>
         </article>
         <div className="flex gap-x-4">
-          <img src="images/banner/apple.svg" alt="appStore" />
-          <img src="images/banner/google-play.svg" alt="googlePlay" />
+          <a href="https://www.apple.com/th/app-store/" target="_blank">
+            <img src="images/banner/apple.svg" alt="appStore" />
+          </a>
+          <a href="https://play.google.com/store" target="_blank">
+            <img src="images/banner/google-play.svg" alt="googlePlay" />
+          </a>
         </div>
       </div>
 
