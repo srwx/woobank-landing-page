@@ -5,11 +5,11 @@ export const PeopleCard = ({ comment, name, job, image }: PeopleCardProps) => {
   return (
     <div
       className={classNames(
-        "rounded-xl w-[85%] h-[14rem]",
+        "rounded-xl w-[85%] h-[14rem] p-6",
         "flex flex-col justify-center gap-y-6",
         "hover:bg-gradient-to-r from-white/20 to-[#14101d] cursor-pointer",
-        "sm:w-[18rem] sm:h-[17rem] sm:justify-between sm:p-6",
-        "md:w-[19rem] md:p-7",
+        "sm:w-[18rem] sm:h-[17rem] sm:justify-between",
+        "md:w-[19rem] md:p-9",
         "lg:w-[21rem]"
       )}
     >
