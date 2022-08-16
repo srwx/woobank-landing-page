@@ -7,6 +7,7 @@ import Business from "sections/Business"
 import Billing from "./sections/Billing"
 import Card from "./sections/Card"
 import People from "./sections/People"
+import Sponsor from "./sections/Sponsor"
 
 export default function App() {
   return (
@@ -22,7 +23,7 @@ export default function App() {
       <div className={classNames(`${styles.flexCenter}`, "flex-col pt-10")}>
         <div
           className={classNames(
-            `${styles.paddingBox} space-y-28 sm:space-y-10`
+            `${styles.paddingBox} space-y-14 sm:space-y-10`
           )}
         >
           <Stats />
@@ -30,6 +31,7 @@ export default function App() {
           <Billing />
           <Card />
           <People />
+          <Sponsor />
         </div>
       </div>
     </div>
